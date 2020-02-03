@@ -67,14 +67,14 @@ plt.plot(range(i+1),r[:i+1])
 plt.title("Primal Residual Norm vs Iteration Number")
 plt.yscale("log")
 plt.xlabel("Iteration Number")
-plt.ylabel("Norm of primal residual")
+plt.ylabel("Norm of primal residual.")
 plt.show()
 
 plt.plot(range(i+1),s[:i+1])
 plt.title("Dual residual norm")
 plt.yscale("log")
 plt.xlabel("Iteration Number")
-plt.ylabel("Norm of dual residual")
+plt.ylabel("Norm of dual residual.")
 plt.show()
 
 
